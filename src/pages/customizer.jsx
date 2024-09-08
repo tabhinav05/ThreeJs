@@ -54,7 +54,7 @@ const Customizer = () => {
       setGeneratingImg(true);
 
 
-      const response = await fetch('https://custom-design-backend-b94a7c7d977e.herokuapp.com/api/v1/dalle', {
+      const response = await fetch('https://cusrom-design-backend.onrender.com/api/v1/dalle', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
